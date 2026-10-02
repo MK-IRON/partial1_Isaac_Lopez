@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 24px;
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            background: #f4f6fb;
+            color: #1f2937;
+        }
+
+        .page-wrapper {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            gap: 24px;
+        }
+
+        .diagram-card {
+            background: #ffffff;
+            border-radius: 16px;
+            padding: 20px;
+            box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+            border: 1px solid #e5e7eb;
+        }
+
+        .diagram-card h1 {
+            margin: 0 0 16px;
+            font-size: 1.5rem;
+        }
+
+        .diagram-card iframe {
+            width: 100%;
+            border: 0;
+            border-radius: 12px;
+            background: #fff;
+        }
+    </style>
+</head>
+<body>
+    <main class="page-wrapper">
+        <div class="diagram-card">
+            <h1>Diagrama Flujo de dinero</h1>
+            <iframe frameborder="0" style="height:1913px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=flujo_dinero_freelance_profesional%20(1).drawio&dark=auto#R%3Cmxfile%3E%3Cdiagram%20id%3D%22flujo_dinero_freelance_profesional.drawio%22%20name%3D%22P%C3%A1gina-1%22%3E3Vttc6o4GP01fjeEF%2FmooL2d2dvurDO7n1NINXcDYQLa9v76TSCoFNraNJK67UwLD0HDOXmek5PoBEbZ8w1HxfYnSzGdONP0eQLjiePAAHrin4y8NBFn6gdNZMNJ2sTAMbAmv7EKTlV0R1JcdhpWjNGKFN1gwvIcJ1UnhjhnT91mj4x237VAG9wLrBNE%2B9F%2FSFptm%2BjMCY7xH5hstu07Az9srmSobayepNyilD2dhOByAiPOWNUcZc8RphK9FpfmvtUbVw8d4zivzrnB6d%2BgXqOsXtrHrfCzuLbYVhkVASAOy4qzf3HEKOMikrNctFw8Ekpfh1herdULgfa8oRP46ry9ZeJAsHKXwUzEESWbXMQofpTv3PRoj%2BhO9ejnfbz8417E4qX4c3t389dyfb9WzTAXHT55FvXkN5hluOIvosn2hByomHg6Eun4KqZeJVCnh%2BGqRpIaRZvDCx%2BBFgcK62Hc4Tm4i1vEiJY4Pm1JhdcFSuSVJ5FVXTpOkT%2BF8RW8q%2FqnR5%2B8w4dzbz5AWA%2F525wkhGkh7feRBm4XaQi6UAcGoHbPgZqzXZ7iVD315%2BBezlfOajYEq7cIF7E3NM7lrxznPGnTwRlCO6JEdBrLvjIqgK%2BQONzlqAnsEjKJ4GQBcy0%2BgoGR73X5cDyvwwfwDRDiXTEh81yUpt%2BIi6hQFlySFKUTJ5KI0ATlCa6xksqTFRT%2Fai5rcDP7PDdGksW%2FYm5i%2FEhyIqkpOCt2uKyzJcVNK8YVNWKWwNp4ifleu55pcARDAxwFV8zRnxyLftf5k7BKZNJJCVOJk6eSkVzM7xRJYjo1GkEeMEDQ7CyCtix72JWfJkcouBNFQ%2BRE4VwOjrfJ6bExiZzJYnUUGdGFok4aijpZBFda%2BAMwoPjBKwLCLgE%2BNEBAeOkMWUVLN%2FaHSFjGQQzBFzLkDm9YQuoMOUhKVLOB60I1ZXUNw1nBSmNZ4XRJ8V7NeH3PACntYLhg3XJW0zgcYiWYzmP3vdT4iJW1mn7VtOSVOC70apLGpCswIRpgwBpeDfoxLqVtp7TGv15NEMXpRVj70UgIpyZIOMtuf1MShHSXotdNCuzVXFc%2Beg1%2FeaLjjWrzHX5AY9EDpiaEG5xly7%2Bjcp%2FYwwRlD0Row4iiDYCJNRFwcad%2BQdmeF4KAZl6r8JfTKcaFARxPpwFol1a%2FxMPlDfrlqtQyrzjeyDwQZhDV685W9AIYsePg8n78clRE7KFxeiWiqZy1cmkm6no1EgdwZoKDa%2Fbb94%2FCNuCaBFYwXikzkUkacpJJ%2BWg9RYZ%2FMY7M1aqPyHGNTGuvzWuL5hzVOn1ce5qiZslDlKsxRds3MmW6uNeOw%2BU8hoPZ4c7En3dIeL2b8VG23OAcNyWL5BtRrZqilew4xybL1kcqbmQNpH2T%2FwUxtwc6inod96jmaqW9Qul40h6Y2AUZ2qu9ji3AFdHbb9LY%2FwMzE7OoNp1w2tvW72PPdjxRrWCfjjydy88PiLOEorIkSZeFYzpNDxi3nxBwhgXe9wJ4QFm46w1WHXL7EjIIMccUVWTffbIvwQX04HKtwuVZg8vRg8uzCpdvDS6oB5dvFa7AGlyuHlyBVbhm1uDy9OCajQDXG5OiTrwvvKewtup4ujEhl13n8Vjw%2Bt8W3sj3QjCwgteJvw9v2EP3jo0FbKAHbPjNquLdDu%2B7e8cj4TfTw6%2FNKEsAtrtyFgplqAnYgEcZEzDHFmCupoloe2wLMGgNME0bAcawXQa0uO%2FPxtViV9N3jIGvATEGfUM3mhq7mh4F2LXAA8Xxb0b39fJ%2FI8qHHfxxYNT0LsCuNQbWvLGr6V6AXXMMrLljV9OPALv2GFjzx66mzwBXYpD7Fm5kUdb1IdfhkJ3%2BAsR4oqzrWOx65AHIRgLM03Qsjl1P3Hbp4oCJ0%2BMXLetrJ99Xhcv%2FAA%3D%3D%3C%2Fdiagram%3E%3C%2Fmxfile%3E"></iframe>
+        </div>
+    </main>
+</body>
+</html>
